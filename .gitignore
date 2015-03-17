@@ -1,3 +1,6 @@
+# Bower
+app/bower_components
+
 # NodeJS
 node_modules/
 
