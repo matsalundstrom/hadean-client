@@ -1,0 +1,24 @@
+{
+  "name": "hadean-client",
+  "version": "0.0.1",
+  "description": "",
+  "license": "MIT",
+  "author": {
+    "name": "Mats Lundström",
+    "email": "mats.a.lundstrom@gmail.com",
+    "url": "https://github.com/matsalundstrom"
+  },
+  "homepage": "https://github.com/matsalundstrom/hadean-client",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matsalundstrom/hadean-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/matsalundstrom/hadean-client/issues"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "devDependencies": {
+  }
+}
