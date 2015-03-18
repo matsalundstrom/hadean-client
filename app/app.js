@@ -1,9 +1,7 @@
-var app = angular.module('app', []);
-
-app.controller('AppCtrl', [function () {
+(function() {
     'use strict';
 
-    var self = this;
+    angular.module('app', [
 
-    self.title = 'Hadean';
-}]);
+    ]);
+})();
