@@ -1,3 +1,9 @@
-/**
- * Created by Lundström on 2015-03-17.
- */
+var app = angular.module('app', []);
+
+app.controller('AppCtrl', [function () {
+    'use strict';
+
+    var self = this;
+
+    self.title = 'Hadean';
+}]);
