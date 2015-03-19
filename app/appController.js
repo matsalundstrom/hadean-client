@@ -3,10 +3,12 @@
 
     angular
         .module('app')
-        .controller('AppCtrl', [function () {
+        .controller('AppController', AppController);
 
-            var self = this;
+    function AppController() {
 
-            self.title = 'Hadean';
-        }]);
+        var self = this;
+
+        self.title = 'Hadean';
+    }
 })();
