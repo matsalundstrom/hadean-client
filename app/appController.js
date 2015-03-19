@@ -7,8 +7,12 @@
 
     function AppController() {
 
-        var self = this;
+        var wm = this;
 
-        self.title = 'Hadean';
+        wm.title = 'Hadean';
+
+        wm.toggleList = function() {
+
+        };
     }
 })();

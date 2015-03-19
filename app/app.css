@@ -9,3 +9,7 @@ md-toolbar h1 {
     text-align: left;
     width: 100%;
 }
+.footer {
+    margin: auto;
+    padding-bottom: 5px;
+}
