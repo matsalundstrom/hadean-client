@@ -20,5 +20,7 @@
     "angular"
   ],
   "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-jshint": "^1.9.4"
   }
 }
