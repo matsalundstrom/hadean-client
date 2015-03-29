@@ -1,15 +1,4 @@
-var gulp = require('gulp');
+var requireDir = require('require-dir');
 
-var jshint = require('gulp-jshint');
-var config = require('./gulp.config')();
-
-gulp.task('jshint', function() {
-    'use strict';
-    gulp.src(config.jsPath)
-        .pipe(jshint())
-        .pipe(jshint.reporter('default'));
-});
-
-gulp.task('default', function() {
-
-});
+// Require all tasks in gulp/tasks, including subfolders
+requireDir('./gulp/tasks', { recurse: true });
