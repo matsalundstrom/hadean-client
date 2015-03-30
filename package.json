@@ -21,6 +21,7 @@
   ],
   "devDependencies": {
     "gulp": "^3.8.11",
+    "gulp-inject": "^1.2.0",
     "gulp-jshint": "^1.9.4",
     "jshint-stylish": "^1.0.1",
     "require-dir": "^0.3.0"
