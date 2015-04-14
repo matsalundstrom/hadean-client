@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 var plugins = require('gulp-load-plugins')();
-var config = require('./gulp/config.js')();
+var config = require('./gulp.config.js')();
 
 gulp.task('jshint', function() {
     'use strict';
