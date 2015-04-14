@@ -1,5 +1,5 @@
 # Bower
-app/bower_components
+src/app/bower_components
 
 # NodeJS
 node_modules/

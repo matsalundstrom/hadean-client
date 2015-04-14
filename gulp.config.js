@@ -3,8 +3,8 @@ module.exports = function () {
 
     var config = {
         jsPath: [
-            'app/*.js',
-            '!app/bower_components'
+            'src/app/*.js',
+            '!src/app/bower_components'
         ]
     };
 
