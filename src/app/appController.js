@@ -11,8 +11,5 @@
 
         wm.title = 'Hadean';
 
-        wm.toggleList = function() {
-
-        };
-    }
+     }
 })();
